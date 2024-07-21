@@ -1,0 +1,17 @@
+Manual de Prueba
+
+Para el uso adecuado de Delta News, se incluye un programa de ejemplo que contiene una serie de noticias preseleccionadas relacionadas con los venezolanos, su inmigración en Colombia y su convivencia con los residentes de dicho país. 
+Este programa incluye 30 noticias del primer trimestre del año procedentes de cuatro periódicos de relevancia: El Heraldo, Vanguardia, El Universal y El Colombiano.
+A partir de estas noticias de ejemplo, obtenemos un análisis de sentimiento mediante técnicas de web scraping, el cual se visualiza en diagramas circulares tanto para los sentimientos como para la subjetividad de los títulos y textos en cuestión. 
+Además, se genera un mapa de calor para los mismos. También visualizamos una nube de palabras (wordcloud) con las palabras más frecuentemente utilizadas.
+Por último, proporciona un resumen de cada noticia, especificando si los sentimientos son positivos, neutrales o negativos, tanto para el título como para el texto, así como la subjetividad del mismo.
+
+Manual Interactivo Delta News
+
+Para el uso interactivo, en caso de que el usuario necesite realizar un análisis de sentimiento de una o más noticias de periódicos colombianos, al ejecutar el programa se deben seguir los siguientes pasos:
+
+1. El programa solicita ingresar la URL de la noticia a analizar; simplemente copiamos y pegamos la URL de interés.
+2. Luego, si necesitamos ingresar más enlaces, el programa vuelve a pedir otra URL; en caso contrario, simplemente escribimos "fin".
+3. El programa devuelve el título de la noticia junto con su sentimiento y subjetividad, además de proporcionar el análisis correspondiente para el texto de la noticia. Por último, indica la ciudad de origen de la noticia.
+4. En las visualizaciones se obtienen diagramas circulares para los títulos y textos, un heatmap o mapa de calor, así como una wordcloud o nube de palabras tanto para el texto de las noticias como para sus títulos.
+5. Por último, el programa nos proporciona un dataframe con todos los datos recopilados, que incluye: título, fecha, autores, ciudad, un resumen y el análisis de sentimientos.
